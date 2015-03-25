@@ -1,5 +1,5 @@
 """
-Django settings for basketballanalytics project.
+Django settings for fantasysportstool project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '5ljo!79jz*u#szm$=ke*qf+j3vye+nbkip^%gs@oolvco$l3rg'
+SECRET_KEY = '5gad6&y#6n4&8k^4)84uw&aks@^f#jry^p7*8s-%88%7t$0^k^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'basketball'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'basketballanalytics.urls'
+ROOT_URLCONF = 'fantasysportstool.urls'
 
-WSGI_APPLICATION = 'basketballanalytics.wsgi.application'
+WSGI_APPLICATION = 'fantasysportstool.wsgi.application'
 
 
 # Database
